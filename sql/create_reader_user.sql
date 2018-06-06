@@ -1,0 +1,14 @@
+\c shows
+REVOKE SELECT ON ALL TABLES IN SCHEMA public FROM reader;
+REVOKE ALL PRIVILEGES ON SCHEMA public FROM reader;
+REVOKE reader FROM readonly;
+
+DROP ROLE IF EXISTS reader;
+CREATE ROLE reader;
+
+DROP ROLE IF EXISTS readonly;
+CREATE ROLE readonly LOGIN PASSWORD 'readonly';
+
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO reader;
+
+GRANT reader TO readonly;
