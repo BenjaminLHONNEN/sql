@@ -1,7 +1,11 @@
+--Drop de la BDD shows si elle existe
 DROP DATABASE IF EXISTS shows;
+--Création de la base de donnée shows et connexion dessus
 CREATE DATABASE shows;
 \c shows;
 
+
+--Crééation des tables
 CREATE TABLE show (
  show_id INTEGER PRIMARY KEY NOT NULL,
  name VARCHAR(255),

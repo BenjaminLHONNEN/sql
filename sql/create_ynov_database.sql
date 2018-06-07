@@ -1,8 +1,10 @@
+--Suppression de la BDD ynov si elle existe
 DROP DATABASE IF EXISTS ynov;
+--Création BDD ynov et connexion dessus
 CREATE DATABASE ynov;
 \c ynov;
 
-
+--Création des tables
 CREATE TABLE students (
   students_id INTEGER PRIMARY KEY NOT NULL,
   firstname   VARCHAR(255),
@@ -23,6 +25,7 @@ CREATE TABLE notes (
   notescoef INTEGER
 );
 
+--Insertion des données
 INSERT INTO students VALUES (1, 'bnj', 'lh');
 INSERT INTO students VALUES (2, 'nico', 'des');
 
@@ -35,7 +38,9 @@ INSERT INTO notes VALUES (2, 1, 1,8,1);
 INSERT INTO notes VALUES (3, 1, 2,12,2);
 INSERT INTO notes VALUES (4, 1, 2,11,1);
 
+--Supression de la vue si elle existe
 DROP VIEW IF EXISTS student_note_by_classes;
+--Creation de la vue et join de autres tables
 CREATE VIEW student_note_by_classes AS
   SELECT * FROM notes
     INNER JOIN classes c2 USING (classes_id)
