@@ -10,7 +10,7 @@ CREATE TABLE show (
  show_id INTEGER PRIMARY KEY NOT NULL,
  name VARCHAR(255),
  description TEXT ,
- release_year INTEGER,
+ release_year INTEGER CHECK((release_year between 1000 and 10000) OR release_year = 0),
  genres VARCHAR(255),
  network VARCHAR(255)
 );
@@ -20,7 +20,7 @@ CREATE TABLE episode (
  show_id INTEGER NOT NULL REFERENCES show(show_id),
  season INTEGER,
  number INTEGER,
- "date" DATE
+ "date" DATE CHECK("date" <= CURRENT_DATE)
 );
 
 CREATE TABLE "user" (
