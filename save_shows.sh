@@ -6,4 +6,4 @@ sudo mkdir /tmp/save
 sudo chmod 777 /tmp/save
 
 #Execution du script SQL lié
-sudo psql --username=admin -f ./sql/save_users.sql
+sudo psql --username=admin -f ./sql/save_shows.sql

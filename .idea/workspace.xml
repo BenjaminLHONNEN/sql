@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c0315d1c-ea5b-4610-8074-a35a6788865c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/create_show_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create_show_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_users.sh" beforeDir="false" afterPath="$PROJECT_DIR$/save_shows.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/save_users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/save_shows.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +34,9 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -68,11 +72,13 @@
         <option value="$PROJECT_DIR$/backup.sh" />
         <option value="$PROJECT_DIR$/reset.sh" />
         <option value="$PROJECT_DIR$/sql/create_show_database.sql" />
+        <option value="$PROJECT_DIR$/save_shows.sh" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="389" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="137" />
     <option name="y" value="131" />
     <option name="width" value="901" />
     <option name="height" value="674" />
@@ -128,9 +134,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="389" y="131" width="901" height="674" extended-state="0" />
+    <frame x="0" y="27" width="1360" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32473624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21112806" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
@@ -380,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/save_users.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reset.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -415,17 +415,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/save_users.sql">
+    <entry file="file://$PROJECT_DIR$/sql/save_shows.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/save_shows.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
